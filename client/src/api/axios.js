@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Change this if your backend ever runs somewhere other than localhost:5000
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://nova-team-productivity-api.onrender.com/api",
 });
 
 // Attach the JWT token (if present) to every outgoing request automatically
